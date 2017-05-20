@@ -25,6 +25,8 @@
       .modal('attach events', '.content.icon.menu','show')
       ;
 
+      // $(".case")
+
     })
   ;
 
@@ -38,3 +40,4 @@
   function closeNav() {
     document.getElementById("myNav").style.width = "0%";
   }
+

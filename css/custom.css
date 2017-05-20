@@ -162,6 +162,23 @@
   min-height: 50em;
 }
 
-.main-menu>menu{
-  
+.main-menu>.menu{
+
 }
+
+/*.eight.wide.column{
+  background-color: green;
+  outline: #00FF00 dotted thick;
+  }*/
+
+  .project-text{
+    height: 25em;
+  }
+
+  .ui.button.case{
+    width: 10em;
+  }
+  .ui.button.case:hover{
+    background-color: teal;
+    transition: background .5s, color .5s;
+  }
