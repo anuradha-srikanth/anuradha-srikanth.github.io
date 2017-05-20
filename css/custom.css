@@ -162,23 +162,23 @@
   min-height: 50em;
 }
 
-.main-menu>.menu{
 
+
+.project-text{
+  height: 25em;
+  min-width: 50em;
 }
 
-/*.eight.wide.column{
-  background-color: green;
-  outline: #00FF00 dotted thick;
-  }*/
+.ui.button.case{
+  width: 10em;
+}
 
-  .project-text{
-    height: 25em;
-  }
+.ui.button.case:not(:hover){
+  transition: background .5s, color .5s;
+}
 
-  .ui.button.case{
-    width: 10em;
-  }
-  .ui.button.case:hover{
-    background-color: teal;
-    transition: background .5s, color .5s;
-  }
+.ui.button.case:hover{
+  background-color: teal;
+  -webkit-appearance: none;
+  transition: background .5s, color .5s;
+}
