@@ -26,6 +26,12 @@
       ;
 
       // $(".case")
+      $('.column.project-text.right')
+      .transition({
+        animation : 'slide right',
+        duration   : '2s'
+      })
+      ;
 
     })
   ;

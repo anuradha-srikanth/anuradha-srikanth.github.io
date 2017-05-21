@@ -210,6 +210,13 @@
   overflow:hidden;
 }
 
+.project-text{
+  height: 100%;
+}
+
+
+
+/*
 .project-text.right{
 
   animation: project-text-right 1s;
@@ -230,7 +237,7 @@
 
 .project-text.left{
   animation: project-text-left 1s;
-  /* */margin-top:0%;
+  margin-top:0%;
   height: 100%;
 }
 
@@ -244,3 +251,4 @@
 
   }
 }
+*/
