@@ -34,11 +34,17 @@
 -----------------------*/
 
 .ui.grid {
-  margin-top: -1rem;
+/*  margin-top: -1rem;
   margin-bottom: -1rem;
   margin-left: -1rem;
-  margin-right: -1rem;
+  margin-right: -1rem;*/
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+
 }
+
 .ui.relaxed.grid {
   margin-left: -1.5rem;
   margin-right: -1.5rem;

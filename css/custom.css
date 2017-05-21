@@ -147,6 +147,28 @@
 
 
 /*Custom*/
+.ui.container{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.ui.celled.grid{
+  box-shadow: none;
+}
+
+.ui.celled.grid>.row>.column{
+  box-shadow: none;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.project-type-content{
+  width:80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .content.icon{
   color: white;
@@ -213,8 +235,6 @@
 .project-text{
   height: 100%;
 }
-
-
 
 /*
 .project-text.right{
