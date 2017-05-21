@@ -147,6 +147,13 @@
 
 
 /*Custom*/
+
+img{
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
 .ui.container{
   margin-left: 0px;
   margin-right: 0px;
@@ -154,14 +161,20 @@
 
 .ui.celled.grid{
   box-shadow: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .ui.celled.grid>.row>.column{
   box-shadow: none;
-  padding-right: 0px;
-  padding-left: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  /*background-color: ;*/
+}
+
+.ui.celled.grid>.row>.column.img{
+ padding-right: 0px;
+ padding-left: 0px;
+ padding-top: 0px;
+ padding-bottom: 0px;
 }
 
 .project-type-content{
@@ -197,10 +210,13 @@
 .project-text{
   height: 25em;
   min-width: 30em;
+  padding: 30px;
 }
 
 
-
+.ui.button{
+  background-color: white;
+}
 
 .ui.button.case{
   width: 10em;
@@ -236,39 +252,4 @@
   height: 100%;
 }
 
-/*
-.project-text.right{
 
-  animation: project-text-right 1s;
-  margin-top:0%;
-  height: 100%;
-}
-
-@keyframes project-text-right{
-  from {
-    margin-top: 0%;
-    margin-left: 100%;
-  }
-  to {
-    margin-left: 0%;
-    
-  }
-}
-
-.project-text.left{
-  animation: project-text-left 1s;
-  margin-top:0%;
-  height: 100%;
-}
-
-@keyframes project-text-left{
-  from {
-    margin-top: 0%;
-    margin-left: -100%;
-  }
-  to {
-    margin-left: 0%;
-
-  }
-}
-*/
