@@ -153,24 +153,43 @@
   font-size: 2em;
 }
 
+.active.item > h3{
+  color: white;
+  font-size: 2em;
+  margin-top: 0px;
+}
+
 .ui.modal > .close{
   /*color: white;*/
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .main-menu{
   min-height: 50em;
 }
 
-
+.project-type{
+  font-size: 4em;
+}
 
 .project-text{
   height: 25em;
-  min-width: 50em;
+  /*min-width: 30em;*/
 }
 
 .ui.button.case{
   width: 10em;
+  height: 4em;
+  color:  #101820;
+  border-style: solid;
+  border-color: #101820;
+  border-width: .15em;
+  border-radius: 0.25em;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  display: table-cell;
+  /*font-size: 2em;*/
 }
 
 .ui.button.case:not(:hover){
@@ -178,7 +197,46 @@
 }
 
 .ui.button.case:hover{
-  background-color: teal;
+  background-color: #FFB81C;
   -webkit-appearance: none;
   transition: background .5s, color .5s;
+}
+
+.ui.grid.project{
+  width:100%;
+  overflow:hidden;
+}
+
+.project-text.right{
+  animation: project-text-right 1s;
+ /* */margin-top:0%;
+  height: 100%;
+}
+
+@keyframes project-text-right{
+  from {
+    margin-top: 0%;
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+    /*transform: translateX(100%)*/
+  }
+}
+
+.project-text.left{
+  animation: project-text-left 1s;
+ /* */margin-top:0%;
+  height: 100%;
+}
+
+@keyframes project-text-left{
+  from {
+    margin-top: 0%;
+    margin-left: -100%;
+  }
+  to {
+    margin-left: 0%;
+    /*transform: translateX(100%)*/
+  }
 }
