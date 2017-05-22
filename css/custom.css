@@ -147,6 +147,63 @@
 
 
 /*Custom*/
+body{
+  /*font-family: 'Droid Serif', serif;*/
+  font-family: 'Didact Gothic', sans-serif;
+  /*font-family: 'Lato', sans-serif;*/
+  /*font-weight: bold;*/
+}
+
+h1,h2,h3{
+  /*font-family: 'Arvo', sans-serif;*/
+  /*font-family: 'Syncopate', sans-serif;*/
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+}
+
+i{
+  color: #EBC000;
+}
+
+.chevron.down.icon{
+  font-size: 2em;
+}
+
+.chevron.down.icon:hover {
+  animation: bounce 1s;
+}
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+h1.ui.header{
+  /*font-family: 'Arvo', sans-serif;*/
+  /*font-family: 'Syncopate', sans-serif;*/
+  /*font-weight: bold;*/
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  white-space: nowrap;
+  /*font-family: 'Didact Gothic', sans-serif;*/
+}
+h1.ui.header > .gold{
+  color: #EBC000;
+  white-space: nowrap;
+}
 
 img{
   width: 100%;
@@ -154,9 +211,19 @@ img{
   object-fit: cover;
 }
 
+
 .ui.container{
   margin-left: 0px;
   margin-right: 0px;
+}
+
+.ui.grid.container.main-menu{
+  background-color: #ffcf00;
+}
+
+.ui.grid.container.main-menu > .item{
+  color: #1a1600;
+  font-size: 3em;
 }
 
 .ui.celled.grid{
@@ -199,6 +266,17 @@ img{
   font-size: 1em;
 }
 
+
+/*.ui.grid.container.main-menu > .column >.item{
+  font-size: 3em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+} */
+
+.ui.secondary.menu .column .item {
+  font-size: 2em;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 .main-menu{
   min-height: 50em;
 }
@@ -230,6 +308,7 @@ img{
   text-align: center;
   margin: auto;
   display: table-cell;
+  font-family: 'Didact Gothic', sans-serif;
   /*font-size: 2em;*/
 }
 
@@ -254,11 +333,11 @@ img{
 
 
 .section-1 .slide-in-demo {
-    position: absolute;
-    /*top: 50%;*/
-    width: 100%;
-    left: 0;
-    text-align: center;
-    font-size: 4em;
+  position: absolute;
+  /*top: 50%;*/
+  width: 100%;
+  left: 0;
+  text-align: center;
+  font-size: 4em;
 }
 

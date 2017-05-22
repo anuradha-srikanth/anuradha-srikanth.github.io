@@ -27,7 +27,7 @@ $(document)
       ;
 
       // $(".case")
-
+      $('.chevron.down.icon').transition('bounce');
 
     })
 ;

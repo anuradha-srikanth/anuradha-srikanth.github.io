@@ -1,0 +1,166 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section {
+    clear: both;
+    width: 100%;
+    min-height: 900px;
+    overflow: auto;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.section:nth-child(even) {
+    color: #220044;
+}
+
+.section:nth-child(odd) {
+    background: rgba(64,57,115,1);
+    background: -moz-linear-gradient(top, rgba(64,57,115,1) 0%, rgba(34,0,68,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(64,57,115,1)), color-stop(100%, rgba(34,0,68,1)));
+    background: -webkit-linear-gradient(top, rgba(64,57,115,1) 0%, rgba(34,0,68,1) 100%);
+    background: -o-linear-gradient(top, rgba(64,57,115,1) 0%, rgba(34,0,68,1) 100%);
+    background: -ms-linear-gradient(top, rgba(64,57,115,1) 0%, rgba(34,0,68,1) 100%);
+    background: linear-gradient(to bottom, rgba(64,57,115,1) 0%, rgba(34,0,68,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#403973', endColorstr='#220044', GradientType=0 );
+    color: white;
+}
+
+.code-segment {
+    margin-top: 20%;
+}
+
+.code-col h4 {
+    font-weight: bold;
+    margin: 0 0 0.5em 0;
+}
+
+.code {
+
+}
+
+.section-0 {
+    text-align: center;
+}
+
+.section-0 .headers {
+    position: absolute;
+    top: 18%;
+    left: 0;
+    right: 0;
+    max-width: 700px;
+    margin: auto;
+}
+
+.section-0 h1 {
+    font-size: 7em;
+    line-height: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.section-0 h2 {
+    font-size: 2.25em;
+    line-height: 1.25em;
+    margin: 1em 0 0 0;
+    max-width: 700px;
+}
+
+.section-0 h3 {
+    font-size: 1.5em;
+    line-height: 1em;
+    margin: 1em 0 0 0;
+}
+
+.section-0 .options {
+    position: absolute;
+    top: 52%;
+    left: 0;
+    right: 0;
+}
+
+.section-0 .options a {
+    margin: 0.5em;
+    border-color: white;
+    background: transparent;
+    color: white;
+}
+
+.section-0 .options a:hover {
+    background: white;
+    color: #220044;
+}
+
+.section-1 .slide-in-demo {
+    position: absolute;
+    padding-top: 3%;
+    top: 0%;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 4em;
+}
+
+.section-2 .reveal-demo {
+    position: absolute;
+    padding-top: 3%;
+    top: 0%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 4em;
+}
+
+.section-3 .text-wrapper {
+    max-width: 600px;
+    margin: auto;
+    font-size: 2em;
+    line-height: 1.5em;
+    padding-top: 3%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.section-3 .text-wrapper span {
+    opacity: 0;
+    -webkit-transition: opacity 0.2s;
+}
+
+.section-3 .text-wrapper span.visible {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        min-height: 0;
+    }
+    .section-0 {
+        padding: 1em;
+    }
+    .section-0 h1 {
+        font-size: 4em;
+        line-height: 1em;
+    }
+    .section-0 h2 {
+        font-size: 1.5em;
+    }
+    .section-0 h3 {
+        font-size: 1em;
+    }
+    .section-0 .headers {
+        position: static;
+    }
+    .section-0 .options {
+        margin-top: 1.5em;
+        position: static;
+    }
+}
+
+
+.cont{
+    max-height: 300px;
+}

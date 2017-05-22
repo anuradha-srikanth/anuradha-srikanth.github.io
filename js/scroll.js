@@ -3,8 +3,10 @@
         $.jScrollability([
         {
             'selector': '.slide-in-demo',
+
             'start': 'parent',
-            'end': 'parent',
+            'end': 'parent', 
+            // 'end': function($el) { return $el.offset().top + $(window).height(); },
             'fn': {
                 'left': {
                     'start': 100,
