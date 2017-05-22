@@ -179,7 +179,7 @@
 
       <br>
       <a href="#projects">
-      <i class="chevron down icon"></i>
+        <i class="chevron down icon"></i>
       </a>
     </div>
 
@@ -285,9 +285,6 @@
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-<!-- <script src="node_modules/jquery/dist/jquery.js"></script> -->
-
 <script src="semantic/dist/semantic.js"></script>
 
 <script src="js/custom.js"></script>
@@ -295,8 +292,69 @@
 <script>
   AOS.init();
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+<script src="node_modules/greensock-js/src/uncompressed/TimelineMax.js"></script>
+<script src="node_modules/greensock-js/src/uncompressed/TweenMax.js"></script>
+<script src="node_modules/scrollmagic/scrollmagic/uncompressed/plugins/velocity.js"></script>
+<script src="node_modules/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
+<script src="node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+<script src="node_modules/scrollmagic/scrollmagic/uncompressed/plugins/animation.velocity.js"></script>
+<script src="node_modules/scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+<script src="node_modules/scrollmagic/scrollmagic/uncompressed/plugins/jquery.ScrollMagic.js"></script>
 
 
+<br>
+<br>
+<!-- <script>
+  // init controller
+  var controller = new ScrollMagic.Controller();
+</script>
+ -->
+<!-- <div class="spacer s1"></div>
+<div id="trigger4" class="spacer s1"></div>
+<div class="spacer s0"></div>
+<div class="animate4 box2 black outline" style="left: 700px;">
+  <p>Tchoo Tchoo!</p>
+  <a href="#" class="viewsource">view source</a>
+</div>
+
+
+<div class="spacer s2"></div>
+<script>
+  var controller = new ScrollMagic.Controller();
+  // build tween
+  var tween = TweenMax.staggerFromTo(".animate4", 2, {left: 700}, {left: 0, ease: Back.easeOut}, 0.15);
+
+  // build scene
+  var scene = new ScrollMagic.Scene({triggerElement: "#trigger4", duration: 300})
+  .setTween(tween)
+    .addIndicators({name: "staggering"}) // add indicators (requires plugin)
+    .addTo(controller);
+
+  </script> -->
+
+
+<script>
+  // init controller
+  var controller = new ScrollMagic.Controller();
+</script>
+ 
+<div class="spacer s2"></div>
+<div id="trigger1" class="spacer s0"></div>
+<div id="animate1" class="box2 skin">
+  <p>You wouldn't like me, when I'm angry!</p>
+  <a href="#" class="viewsource">view source</a>
+</div>
+<div class="spacer s2"></div>
+<script>
+    // build scene
+    var scene = new ScrollMagic.Scene({
+              triggerElement: "#trigger1"
+            })
+            .setTween("#animate1", 0.5, {backgroundColor: "green", scale: 2.5}) // trigger a TweenMax.to tween
+            .addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
+            .addTo(controller);
+</script>
 
 </body>
 
