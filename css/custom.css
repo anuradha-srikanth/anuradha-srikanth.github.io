@@ -253,3 +253,12 @@ img{
 }
 
 
+.section-1 .slide-in-demo {
+    position: absolute;
+    /*top: 50%;*/
+    width: 100%;
+    left: 0;
+    text-align: center;
+    font-size: 4em;
+}
+
