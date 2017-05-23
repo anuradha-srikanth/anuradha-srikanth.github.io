@@ -299,6 +299,37 @@ img{
 }
 
 
+
+
+/************Skills*************/
+
+.ui.grid.skills > .row > .column {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  margin: 0px auto;
+}
+
+.ui.grid.skills > .row > .column > i {
+  font-size: 8em;
+  color: black;
+}
+
+.ui.grid.skills > .row > .column:hover {
+  background-color: #FFB81C;
+  transition: background 1s, color 1s;
+  border-style: solid;
+  border-color: #101820;
+  border-width: .15em;
+
+}
+
+.skills-category{
+  padding-left: 0.60em;
+  letter-spacing: 0.1em;
+}
+
 .section-1 .slide-in-demo {
   position: absolute;
   /*top: 50%;*/
@@ -307,4 +338,6 @@ img{
   text-align: center;
   font-size: 4em;
 }
+
+
 
