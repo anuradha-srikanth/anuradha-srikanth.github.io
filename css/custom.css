@@ -177,17 +177,24 @@ img{
   margin-right: auto;
 }
 
+/*************** Menu Icon *********/
+
 .content.icon{
   color: white;
   font-size: 3em;
   margin: 0px;
 }
 
+
 .ui.menu .active.item > i.icon {
     margin: 0px;
 }
 
 .active.item{
+  background-color: black;
+}
+
+.active.item:hover{
   background-color: #ffcf00;
 }
 
@@ -197,6 +204,24 @@ img{
   margin-top: 0px;
 }
 
+.ui.secondary.menu .active.item{
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+  transition: background .5s, color .5s;
+  margin-left: 1em;
+}
+
+.ui.secondary.menu .active.item:hover{
+  background-color: #ffcf00;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+  transition: background .5s, color .5s;
+}
+
+/*************** End Menu Icon *********/
+
+/*************** Menu Modal *********/
 .ui.modal{
   /*height: 20em;*/
   border-radius: 70%;
@@ -229,15 +254,6 @@ img{
   font-size: 4em;
 }
 
-.ui.secondary.menu .column{
-  padding-right: 0px;
-  padding-bottom: 0px;
-  padding-left: 0px;
-  padding-top: 0px;
-  width: 20%;
-  margin: 0 auto;
-  text-align: center;
-}
 
 .ui.secondary.menu .column .item {
   font-size: 2em;
@@ -250,14 +266,23 @@ img{
   background-image: url("../img/underline.png");
   background-size: 0.5em;
   background-repeat: no-repeat;
-  text-decoration: underline;
+  margin-left: 1em;
+  /*text-decoration: underline;*/
 }
 
-.ui.secondary.menu .active.item{
-  background-color: #ffcf00;
-  padding: 10px 10px 10px 10px;
-  border-radius: 50%;
+/*************** End Menu Modal *********/
+
+.ui.secondary.menu .column{
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  width: 20%;
+  margin: 0 auto;
+  text-align: center;
 }
+
+
 .main-menu{
   min-height: 50em;
 }
@@ -313,9 +338,6 @@ img{
   height: 100%;
 }
 
-
-
-
 /************Skills*************/
 
 .ui.grid.skills{
@@ -362,6 +384,7 @@ img{
   text-align: center;
   font-size: 4em;
 }
+
 
 
 
