@@ -187,7 +187,7 @@ img{
 
 
 .ui.menu .active.item > i.icon {
-    margin: 0px;
+  margin: 0px;
 }
 
 .active.item{
@@ -385,6 +385,63 @@ img{
   font-size: 4em;
 }
 
+
+
+/*************Footer***********/
+
+.ui.container.social{
+  text-align: center;
+}
+
+.ui.two.column.centered.grid.social-icons{
+  text-align: center;
+}
+
+.ui.two.column.centered.grid.social-icons i{
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  /*padding-left:1em;*/
+  /*padding-right:1em;*/
+  border-radius: 50%;
+  /*  border: 1px solid rgb(205, 209, 215);*/
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  /*line-height: 100px;*/
+  vertical-align: middle;
+  padding: 20px;
+  margin: 10px;
+}
+
+.ui.two.column.centered.grid.social-icons i:hover{
+  font-size: 1.5em;
+  text-align: center;
+  color: black;
+  border-radius: 50%;
+  border: 2px solid black;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+  padding: 20px;
+  margin: 10px;
+  transition: background .5s, color .5s;
+}
+
+
+.ui.centered.grid > .column:not(.aligned):not(.justified):not(.row), .ui.centered.grid > .row > .column:not(.aligned):not(.justified), .ui.grid .centered.row > .column:not(.aligned):not(.justified) {
+  text-align: center;
+}
+
+
+.ui.inverted.vertical.footer.segment{
+  background-color: #ebc000;
+}
+
+.ui.three.column.centered.grid.email i{
+  font-size: 2em;
+  color: white;
+}
 
 
 
