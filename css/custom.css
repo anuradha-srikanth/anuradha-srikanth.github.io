@@ -17,6 +17,7 @@
   margin-bottom: 0em;
   font-size: 4em;
   font-weight: normal;
+  letter-spacing: 0.1em;
 }
 .masthead h2 {
   font-size: 1.7em;
@@ -179,6 +180,15 @@ img{
 .content.icon{
   color: white;
   font-size: 3em;
+  margin: 0px;
+}
+
+.ui.menu .active.item > i.icon {
+    margin: 0px;
+}
+
+.active.item{
+  background-color: #ffcf00;
 }
 
 .active.item > h3{
@@ -243,6 +253,11 @@ img{
   text-decoration: underline;
 }
 
+.ui.secondary.menu .active.item{
+  background-color: #ffcf00;
+  padding: 10px 10px 10px 10px;
+  border-radius: 50%;
+}
 .main-menu{
   min-height: 50em;
 }
@@ -303,16 +318,25 @@ img{
 
 /************Skills*************/
 
+.ui.grid.skills{
+
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
 .ui.grid.skills > .row > .column {
   padding-left: 2em;
   padding-right: 2em;
   padding-bottom: 2em;
   padding-top: 2em;
   margin: 0px auto;
+  text-align: center;
 }
 
 .ui.grid.skills > .row > .column > i {
-  font-size: 8em;
+  font-size: 7em;
   color: black;
 }
 
