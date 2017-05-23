@@ -20,7 +20,7 @@ $(document)
       .sidebar('attach events', '.toc.item')
       ;
       // show modal
-      $('.ui.fullscreen.modal')
+      $('.small.ui.modal')
       .modal({ blurring: true })
       .modal('setting', 'transition', 'horizontal flip')
       .modal('attach events', '.content.icon.menu','show')
