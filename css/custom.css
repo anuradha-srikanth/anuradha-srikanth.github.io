@@ -358,22 +358,25 @@ img{
 }
 
 .ui.grid.skills > .row > .column > i {
-  font-size: 7em;
+  font-size: 3em;
   color: black;
 }
 
 .ui.grid.skills > .row > .column:hover {
-  background-color: #FFB81C;
+  /*background-color: #FFB81C;*/
+  background-color: #ebc000;
   transition: background 1s, color 1s;
-  border-style: solid;
+/*  border-style: solid;
   border-color: #101820;
-  border-width: .15em;
+  border-width: .15em;*/
 
 }
 
 .skills-category{
   padding-left: 0.60em;
   letter-spacing: 0.1em;
+  position: relative;
+
 }
 
 .section-1 .slide-in-demo {
