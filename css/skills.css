@@ -12,3 +12,14 @@
 .ui.sticky.fixed.top.segment.php{
 	
 }
+
+
+.ui.sticky.segment .inside{
+	display: none;
+/*	float: right;
+	left: 100%;*/
+}
+
+/*.ui.sticky.segment.hide{
+	display: none;
+}*/
