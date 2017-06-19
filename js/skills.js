@@ -40,8 +40,10 @@ $(document)
 
 		var myId = $(this).attr("id");
 		$(".ui.right.very.close.rail .segment .inside").each(function(i,e){
- 			if(!($(e).hasClass(myId))){
+			console.log(myId);
+			if(($(e).hasClass(myId))){
 				// $(e).addClass('hide');
+				// console.log('1');
 				$(e).show();
 			}
 			else{
