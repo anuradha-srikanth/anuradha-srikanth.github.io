@@ -13,6 +13,9 @@
 	
 }
 
+.ui.sticky.segment{
+	height: 45%;
+}
 
 .ui.sticky.segment .inside{
 	display: none;
