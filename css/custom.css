@@ -223,8 +223,8 @@ img{
 
 /*************** Menu Modal *********/
 .ui.modal{
-  /*height: 20em;*/
-  border-radius: 70%;
+  height:80%;
+  /*border-radius: 70%;*/
   background-color: #ffcf00;
 }
 
